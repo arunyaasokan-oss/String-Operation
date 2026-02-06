@@ -5,4 +5,4 @@ cmake_minimum_required(VERSION 3.10)
 project(StringOperation)
 
 # 3. Create executable
-add_executable(mystring main.c stringoperation.c)
+add_executable(mystring main.c stringoperation.c palidromecheck.c)
