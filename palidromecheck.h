@@ -2,26 +2,24 @@
 // Copyright(c) 2026 Trenser Technology solution(P) Ltd
 // Allrights are reserved
 //*****************************************************************************
-// Summary  : perform basic string functions
+// Summary  : 
 // Note     : 
 //*****************************************************************************
 
-#ifndef STRING_OPERATION_H
-#define STRING_OPERATION_H
+#ifndef PALIDROME_CHECK_H
+#define PALINDROME_CHECK_H
 //**********************Include File*******************************************
 #include <stdbool.h>
-#include <stdint.h>
 
 //**********************Global types*******************************************
 
 //**********************Global constants **************************************
-#define MAX_SIZE 100
+
 
 //**********************Global variable ***************************************
 
 //***********************Forward declartion ***********************************
-bool StringOperationLength(void);
-uint32_t StringOperationFindLength(char *pcData);
+void PalidromeCheckUsingString(void);
 
 //***********************Inline function implementation ***********************
 

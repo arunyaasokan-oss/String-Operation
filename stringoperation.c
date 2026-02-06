@@ -11,19 +11,16 @@
 //************************ Include Files **************************************
 #include <stdio.h>
 #include <string.h>
-#include <stdint.h>
 #include <stdlib.h>
 #include "stringoperation.h"
 
 //*************************Local types*****************************************
 
 //*************************Local contants**************************************
-#define MAX_SIZE 100
 
 //*************************Local variables ************************************
 
 //*************************Local functions ************************************
-uint32_t StringOperationFindLength(char *pcData);
 
 //*****************************************************************************
 // Purpose  : To find string length
@@ -78,4 +75,7 @@ bool StringOperationLength(void)
     ulStringLength = StringOperationFindLength(pReadInputData);
 
     printf("Length of %s : %d\n", pReadInputData, ulStringLength);
+
+    free(pReadInputData);
+    pReadInputData = NULL;
 }
