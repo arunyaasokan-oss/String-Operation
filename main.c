@@ -22,10 +22,10 @@
 //********************Local Functions******************************************
 
 //*****************************************************************************
-
 int main()
 {
     StringOperationLength();
     PalidromeCheckUsingString();
+    StringOperationCheckEqual();
     return 0;
 }

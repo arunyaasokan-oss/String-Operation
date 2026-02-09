@@ -22,6 +22,7 @@
 //***********************Forward declartion ***********************************
 bool StringOperationLength(void);
 uint32_t StringOperationFindLength(char *pcData);
+void StringOperationCheckEqual(void);
 
 //***********************Inline function implementation ***********************
 

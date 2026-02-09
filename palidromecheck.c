@@ -72,5 +72,7 @@ void PalidromeCheckUsingString(void)
     {
         printf("Given string is not a palidrome");
     }
+    free(cInputString);
+    cInputString = NULL;
 
 }
