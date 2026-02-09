@@ -11,6 +11,7 @@
 //********************Include files********************************************
 #include <stdio.h>
 #include "stringoperation.h"
+#include "palidromecheck.h"
 
 //********************Local Types**********************************************
 
@@ -21,9 +22,10 @@
 //********************Local Functions******************************************
 
 //*****************************************************************************
-
 int main()
 {
     StringOperationLength();
+    PalidromeCheckUsingString();
+    StringOperationCheckEqual();
     return 0;
 }
